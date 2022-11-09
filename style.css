@@ -1,0 +1,54 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ 
+}
+img{
+  width: 100%;
+
+}
+
+.slide-image{
+  opacity: 1;
+}
+.image-class{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-container {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  transform: translateY(-50%);
+  color: azure;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.slider{
+  height: 100vh;
+}
+
+.btn {
+  font-size: 8rem;
+  opacity: 0;
+  border: none;
+  transition: opacity 0.3s ease-in;
+}
+
+.btn {
+  font-size: 8rem;
+  opacity: 0;
+  border: none;
+  transition: opacity 0.3s ease-in;
+  background: none;
+  color: #fff;
+}
+
+.btn:hover{
+  color: chartreuse;
+  opacity: 1;
+}
